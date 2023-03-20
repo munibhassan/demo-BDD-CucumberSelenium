@@ -25,6 +25,7 @@ public class OrangeHRMsteps {
     @Then("I verify that the logo present on page")
     public void i_verify_that_the_logo_present_on_page() {
        boolean isdisplayed= driver.findElement(By.xpath("//div[@class=\"orangehrm-login-branding\"]")).isDisplayed();
+       //this is test commit
     }
     @Then("close browser")
     public void close_browser() {
